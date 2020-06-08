@@ -1,0 +1,30 @@
+h1 {
+    color: purple;
+}
+
+p {
+    color: green;
+}
+
+.p-blue {
+    color: blue;
+    font: 25px;
+}
+
+.p-purple {
+    color: purple;
+    font: 20px;
+}
+
+.row {
+    margin: 1%;
+}
+
+.icons {
+    min-block-size: 60%;
+    margin: 10%;
+}
+
+#mike {
+    color: yellow;
+}
