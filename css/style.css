@@ -1,19 +1,9 @@
 h1 {
-    color: purple;
+    color: black;
 }
 
 p {
     color: green;
-}
-
-.p-blue {
-    color: blue;
-    font: 25px;
-}
-
-.p-purple {
-    color: purple;
-    font: 20px;
 }
 
 .row {
@@ -25,6 +15,6 @@ p {
     margin: 10%;
 }
 
-#mike {
+#dobello {
     color: yellow;
 }

@@ -1,44 +1,15 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <title>Dobello</title>
+        <div w3-include-html="inc/head.html"></div>
     </head>
 
     <body>
+
         <!-- Header -->
         <header>
-            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">Dobello</a>
-                <button class="navbar-toggler justify-content-end" type="button"
-                    data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse nav justify-content-center"
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto justify-content-center">
-                        <!-- <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                  <!--      <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li> -->
-                    </ul>
-                </div>
-            </nav>
-
+            <div w3-include-html="inc/nav.html"></div>
         </header>
         <br/>
 
@@ -46,7 +17,7 @@
             <content class="container">
                 <div class="row">
                     <div class="col">
-                        <h1>DobelloEllo</h1>
+                        <h1>Dobello</h1>
                         <p>Creating IT based solutions to real world challenges.</p>
                         <p>Here are some of our works:</p>
                         <ul>
@@ -62,29 +33,10 @@
             <!-- Footer -->
             <footer class="fixed-bottom sticky-bottom container-fill navbar
                 navbar-dark bg-dark">
-                <div class="row">
-                    <div class="col-4">
-                        <nav class="navbar">
-                            <a class="navbar-brand" href="index.html">
-                                DobelloEllo
-                            </a>
-                        </nav>
-                    </div>
-                    <div class="col-2"></div>
-                    <div class="col-4">
-                        <nav class="navbar">
-                            <a href="http://dobello.byethost7.com/"
-                                target="_blank">Mirror</a>
-                            <a href="https://twitter.com/DobelloEllo"
-                                target="_blank">Twitter</a>
-                            <a href="https://github.com/123MwanjeMike"
-                                target="_blank">Github</a>
-                        </nav>
-                    </div>
-                    <div class="col-4"></div>
-                </div>
+                <div w3-include-html="inc/foot.html"></div>
             </footer>
 
+            <script src="js/include.js"></script>
             <script src="js/bootstrap/jquery-3.5.1.slim.min.js"></script>
             <script src="js/bootstrap/popper.min.js"></script>
             <script src="js/bootstrap/js/bootstrap.min.js"></script>
